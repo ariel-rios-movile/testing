@@ -16,6 +16,17 @@ public class VerySimple {
     public int sum(int a, int b) {
         return a + b;
     }
+
+    /**
+     * Performs a sum of both integers, but first is an object.
+     *
+     * @param a The integer as object.
+     * @param b The integer as primitive.
+     * @return The sum of both integers as well.
+     */
+    public int sumObject(Integer a, int b) {
+        return a.intValue() + b;
+    }
 }
 
 // vim:ft=java ts=4 tw=80 cc=+1: 

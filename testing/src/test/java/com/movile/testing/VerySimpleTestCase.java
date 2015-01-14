@@ -40,4 +40,14 @@ public class VerySimpleTestCase {
     public void testSum() {
         Assert.assertEquals(3, vs.sum(a, b));
     }
+
+    @Test
+    public void testSumObjectOk() {
+        Assert.assertEquals(3, vs.sumObject(a, b));
+    }
+
+    @Test(expected = NullPointerException.class)
+    public void testSumObjectFailed() {
+        vs.sumObject(null, b);
+    }
 }

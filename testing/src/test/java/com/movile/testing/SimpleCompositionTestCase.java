@@ -19,6 +19,11 @@ import org.mockito.InjectMocks;
 import org.mockito.Spy;
 import org.mockito.runners.MockitoJUnitRunner;
 
+/**
+ * Test cases for simple composition.
+ *
+ * @author Ariel Gerardo Ríos (ariel.rios@movile.com)
+ */
 @RunWith(MockitoJUnitRunner.class)
 public class SimpleCompositionTestCase {
 
@@ -36,6 +41,9 @@ public class SimpleCompositionTestCase {
     public void setUp() {
         a = 1;
         b = 2;
+
+        // vs = Mockito.spy(VerySimple.class);
+        // sc = new SimpleComposition(vs);
     }
 
     @After

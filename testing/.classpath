@@ -5,5 +5,8 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry exported="true" kind="var" path="M2_REPO/junit/junit/4.12/junit-4.12.jar"/>
 	<classpathentry exported="true" kind="var" path="M2_REPO/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar"/>
+	<classpathentry exported="true" kind="var" path="M2_REPO/org/powermock/powermock-api-mockito/1.6.1/powermock-api-mockito-1.6.1.jar"/>
+	<classpathentry exported="true" kind="var" path="M2_REPO/org/powermock/powermock-core/1.6.1/powermock-core-1.6.1.jar"/>
+	<classpathentry exported="true" kind="var" path="M2_REPO/org/powermock/powermock-module-junit4/1.6.1/powermock-module-junit4-1.6.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
